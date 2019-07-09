@@ -85,6 +85,7 @@
 		6AF1FAFD22D3D63F00AC06B3 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				6AF1FAF922D3D60700AC06B3 /* JournalCloudKit.entitlements */,
 				6AF1FAEB22D3D5E600AC06B3 /* Main.storyboard */,
 			);
 			path = View;
@@ -93,7 +94,6 @@
 		6AF1FAFE22D3D67F00AC06B3 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				6AF1FAF922D3D60700AC06B3 /* JournalCloudKit.entitlements */,
 				6AF1FAE722D3D5E600AC06B3 /* AppDelegate.swift */,
 				6AF1FAEE22D3D5E900AC06B3 /* Assets.xcassets */,
 				6AF1FAF022D3D5E900AC06B3 /* LaunchScreen.storyboard */,
@@ -356,7 +356,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = JournalCloudKit/JournalCloudKit.entitlements;
+				CODE_SIGN_ENTITLEMENTS = JournalCloudKit/View/JournalCloudKit.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 899TSM5Z6B;
 				INFOPLIST_FILE = "$(SRCROOT)/JournalCloudKit/Resources/Info.plist";
@@ -375,7 +375,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = JournalCloudKit/JournalCloudKit.entitlements;
+				CODE_SIGN_ENTITLEMENTS = JournalCloudKit/View/JournalCloudKit.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 899TSM5Z6B;
 				INFOPLIST_FILE = "$(SRCROOT)/JournalCloudKit/Resources/Info.plist";

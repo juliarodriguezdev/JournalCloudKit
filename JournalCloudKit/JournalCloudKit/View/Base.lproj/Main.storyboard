@@ -115,9 +115,7 @@
                             <outletCollection property="gestureRecognizers" destination="DcF-cN-r7p" appends="YES" id="XJV-8m-jpU"/>
                         </connections>
                     </view>
-                    <toolbarItems>
-                        <barButtonItem title="Item" id="OlP-WI-viU"/>
-                    </toolbarItems>
+                    <toolbarItems/>
                     <navigationItem key="navigationItem" title="Entry" id="hhF-mt-vTB">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="Jgf-sn-9yr">
                             <connections>
